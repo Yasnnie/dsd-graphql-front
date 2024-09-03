@@ -13,15 +13,6 @@ interface Project {
   link?: string;
 }
 
-const PLACEHOLDER_DATA = {
-  about: {
-    name: "Fulano de Tal",
-    age: 30,
-    description:
-      "Desenvolvedor de software com 10 anos de experiência em projetos de alta complexidade.",
-  },
-};
-
 function App() {
   const { data, loading } = useQuery(GET_DATA);
 
